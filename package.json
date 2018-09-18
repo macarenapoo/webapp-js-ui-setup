@@ -1,0 +1,21 @@
+{
+  "name": "tabs-poc-maca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --mode=development"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "1.13.6",
+    "@babel/core": "7.1.0",
+    "babel-loader": "8.0.2",
+    "ts-loader": "5.1.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.8"
+  },
+  "dependencies": {
+    "typescript": "3.0.3"
+  }
+}
